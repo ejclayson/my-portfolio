@@ -60,3 +60,7 @@ div h2{
 body{
 	background-color: gray;
 }
+
+html{
+	scroll-behavior: smooth;
+}
