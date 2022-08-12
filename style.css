@@ -22,6 +22,10 @@ section > div > div > div > div > a > img{
 
 }
 
+section > div > div > div > div > div > img{
+	height: auto;
+	width: auto;
+}
 
 
 .bg-title{
@@ -73,13 +77,13 @@ section > div > div > h1,  div > h2{
 	font-size: 5vw;
 }
 
+/*
 
-
-div > div > img{
+div > div > div > img{
 	width: auto;
 	height: 10%;
 
-}
+}*/
 
 .bg-about{
 	background-color: rgba(255,255,255,0.9);
@@ -106,48 +110,6 @@ div > div > img{
 }
 
 
-
-/*Background Properties*/
-/*#landing{*/
-	/*background-color: gray;*/
-	/*background-color: rgba(255,255,255,0.3);*/
-	/*background-image: url(./images/01pinatubo.jpg);*/
-	/*background-color: #6c757d;*/
-	/*background-repeat: no-repeat;*/
-	/*other syntaxes using background-size: ("auto", "cover", "contain")*/
-	/*background-size: cover;*/
-	/* x and y ---- needs two values */
-	/*background-position: center center;*/
-	/*background-attachment: scroll;*/
-	/*width: auto;*/
-	/*height: auto;*/
-	
-	/*color: #726f66;*/
-
-	/*https://www.w3schools.com/howto/howto_css_parallax.asp*/
-/*}*/
-/*
-img{
-	max-width: auto;
-	height: auto;
-}*/
-
-/*#landing {*/
-	/*padding-top: 8%;*/
-	/*padding-left: 35%;*/
-	/*text-align: center;*/
-	/*color: white;*/
-	/*height: 100vh;*/
-
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/*justify-content: center;*/
-	/*align-items: center;*/
-	
-	/*background-size: 100%;*/
-	/*background-position: center center;*/
-	/*background-color: rgba(255,255,255,255);*/
-/*}*/
 
 #coretools, #contact, #footerSection{
 	height: 50%;
