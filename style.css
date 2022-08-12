@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -85,7 +87,7 @@ div > div > img{
 
 #landing{
 	/*background-image: url(./images/bgimg1.jfif);*/
-	background-image: url(./images/01pinatubo.jpg);
+	background-image: url(./images/pinatubo.jpg);
 
 	background-repeat: no-repeat;
 	/*width: 100px;*/
