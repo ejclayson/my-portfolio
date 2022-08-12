@@ -2,17 +2,17 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: "Roboto", sans-serif;
+	font-family: "Orbitron", sans-serif;
 }
 
 
-
+/*
 div > section > img{
 	height: 250px;
 	width: 250px;
 	border-radius: 500px;
 }
-
+*/
 section > div > div > div > div > a > img{
 	height: 100px;
 	width: 100px;
@@ -21,38 +21,136 @@ section > div > div > div > div > a > img{
 }
 
 
-.front{
-	background-image: url(./images/bgimg1.jfif);
-	background-repeat: repeat;
 
-	background-size: 100%;
+.bg-title{
+	/*margin-top: 5px;*/
+	color: white;
+	font-size: 4vw;
+	/*text-align: center;*/
+	/*font-size: 4em;*/
+	/*margin: 0;*/
+	/*line-height: 100vh;*/
+/*}*/
 }
 
-#landing {
-	padding-top: 8%;
-	/*padding-left: 35%;*/
-	text-align: center;
-	color: white;
-	height: 100vh;
 
-	/*display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;*/
+.bg-sub{
+	color: white;
+	font-size: 2vw;
+	/*text-align: center;*/
+	/*font-size: 1.5em;*/
+	/*margin: 0;*/
+	/*line-height: 100vh;*/
+/*}*/}
+
+
+.bg-par{
+	color: white;
+	/*text-align: center;*/
+	font-size: 1vw;
+	/*margin: 0;*/
+	/*line-height: 100vh;*/
+}
+
+
+
+
+div > div > h1, div > h3{
+	color: white;
+	font-size: 4vw;
+}
+
+
+div > div > p{
+	color: white;
+	font-size: 1.5vw;
+}
+
+section > div > div > h1,  div > h2{
+	color: black;
+	font-size: 5vw;
+}
+
+
+
+div > div > img{
+	width: auto;
+	height: 10%;
+
+}
+
+.bg-about{
+	background-color: rgba(255,255,255,0.9);
+}
+
+#landing{
+	/*background-image: url(./images/bgimg1.jfif);*/
+	background-image: url(./images/01pinatubo.jpg);
+
+	background-repeat: no-repeat;
+	/*width: 100px;*/
+	background-size: cover;
+	/*background-size: 100%;*/
+	/*background-color: rgba(0,0,0,10);*/
+	background-position: center center;
+	background-attachment: scroll;
+	width: auto;
+	height: auto;
+	background-position: center center;
+	background-attachment: scroll;
+	color: #726f66;
+	
+	/*color: #726f66;*/
+}
+
+
+
+/*Background Properties*/
+/*#landing{*/
+	/*background-color: gray;*/
+	/*background-color: rgba(255,255,255,0.3);*/
+	/*background-image: url(./images/01pinatubo.jpg);*/
+	/*background-color: #6c757d;*/
+	/*background-repeat: no-repeat;*/
+	/*other syntaxes using background-size: ("auto", "cover", "contain")*/
+	/*background-size: cover;*/
+	/* x and y ---- needs two values */
+	/*background-position: center center;*/
+	/*background-attachment: scroll;*/
+	/*width: auto;*/
+	/*height: auto;*/
+	
+	/*color: #726f66;*/
+
+	/*https://www.w3schools.com/howto/howto_css_parallax.asp*/
+/*}*/
+/*
+img{
+	max-width: auto;
+	height: auto;
+}*/
+
+/*#landing {*/
+	/*padding-top: 8%;*/
+	/*padding-left: 35%;*/
+	/*text-align: center;*/
+	/*color: white;*/
+	/*height: 100vh;*/
+
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
 	
 	/*background-size: 100%;*/
 	/*background-position: center center;*/
-	background-color: rgba(255,255,255,0.6);
-}
+	/*background-color: rgba(255,255,255,255);*/
+/*}*/
 
-#coretools{
-	height: 100vh;
+#coretools, #contact, #footerSection{
+	height: 50%;
+	width: auto;
 }
-
-#contact{
-	height: 100vh;
-}
-
 
 
 div h2{
