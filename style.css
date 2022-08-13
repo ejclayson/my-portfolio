@@ -8,96 +8,20 @@
 }
 
 
-/*
-div > section > img{
-	height: 250px;
-	width: 250px;
-	border-radius: 500px;
-}
-*/
-section > div > div > div > div > a > img{
-	height: 100px;
-	width: 100px;
-	border-radius: 150px;
 
-}
-
-section > div > div > div > div > div > img{
-	height: auto;
-	width: auto;
-}
-
-
-.bg-title{
-	/*margin-top: 5px;*/
-	color: white;
-	font-size: 4vw;
-	/*text-align: center;*/
-	/*font-size: 4em;*/
-	/*margin: 0;*/
-	/*line-height: 100vh;*/
-/*}*/
-}
-
-
-.bg-sub{
-	color: white;
-	font-size: 2vw;
-	/*text-align: center;*/
-	/*font-size: 1.5em;*/
-	/*margin: 0;*/
-	/*line-height: 100vh;*/
-/*}*/}
-
-
-.bg-par{
-	color: white;
-	/*text-align: center;*/
-	font-size: 1vw;
-	/*margin: 0;*/
-	/*line-height: 100vh;*/
-}
-
-
-
-
-div > div > h1, div > h3{
-	color: white;
-	font-size: 4vw;
-}
-
-
-div > div > p{
-	color: white;
-	font-size: 1.5vw;
-}
-
-section > div > div > h1,  div > h2{
-	color: black;
-	font-size: 5vw;
-}
-
-/*
-
-div > div > div > img{
-	width: auto;
-	height: 10%;
-
-}*/
+/*This si for the background image in the BANNER section part 1*/
 
 .bg-about{
 	background-color: rgba(255,255,255,0.9);
 }
 
-#landing{
-	/*background-image: url(./images/bgimg1.jfif);*/
-	background-image: url(./images/pinatubo.jpg);
 
+/*This si for the background image in the BANNER section part 2*/
+
+#landing{
+	background-image: url(./images/pinatubo.jpg);
 	background-repeat: no-repeat;
-	/*width: 100px;*/
 	background-size: cover;
-	/*background-size: 100%;*/
-	/*background-color: rgba(0,0,0,10);*/
 	background-position: center center;
 	background-attachment: scroll;
 	width: auto;
@@ -105,21 +29,102 @@ div > div > div > img{
 	background-position: center center;
 	background-attachment: scroll;
 	color: #726f66;
-	
-	/*color: #726f66;*/
 }
 
 
 
-#coretools, #contact, #footerSection{
-	height: 50%;
-	width: auto;
+/*This is the H1 text in the BANNER section*/
+
+.bg-title{
+	color: white;
+	font-size: 4vw;
+}
+
+/*This is the H3 text in the BANNER section*/
+
+.bg-sub{
+	color: white;
+	font-size: 2vw;
+}
+
+/*This is the P text in the BANNER section*/
+
+.bg-par{
+	color: white;
+	font-size: 1vw;
 }
 
 
-div h2{
+
+/*this is for LOGOs in ABOUT section to keep them small*/
+#about-section-logos{
+	height: auto;
+	width: 75px;
+	border-radius: 150px;
+
+}
+
+
+/*ABOUT SECTION heading*/
+#about-heading-one{
+	color: white;
+	font-size: 4vw;
+}
+
+
+/*ABOUT SECTION pharagrap*/
+#about-paragraph-one{
+	color: white;
+	font-size: 1.5vw;
+}
+
+/*ABOUT SECTION carousel images*/
+#carousel-images{
+	width: 75%;
+	max-width: 75%;
+	height: auto;
+
+}
+
+
+/*about section log and text portion*/
+/*#about-section-logo-and-text{
+	width: 50%;
+	height: auto;
+}
+*/
+
+/*PROJECT SECTION h2*/
+
+.project-heading-two{
 	text-align: center;
+	font-size: 5vw;
+	color: black;
 }
+
+/*	TOOLS HEADING three*/
+
+#tools-heading-three{
+	color: white;
+	font-size: 5vw;
+}
+
+
+
+
+/*CONTACT SECTION heading 1*/
+section > div > div > h1{
+	color: black;
+	font-size: 5vw;
+}
+
+
+
+#coretools, #contact, #about{
+	height: 100%;
+	width: 100%;
+}
+
 
 
 html{
