@@ -68,7 +68,7 @@
 /*ABOUT SECTION heading*/
 #about-heading-one{
 	color: white;
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 
 
@@ -83,18 +83,19 @@
 /*cert - about SECTION pharagrap*/
 #cert-paragraph-one{
 	color: gray;
-	font-size: 1vw;
+	font-size: 0.5vw;
 }
 
 #cert-heading-one{
 	color: gray;
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 
 
-#card-text-cert
+#card-text-cert, .card-link
 {
 	color: gray;
+	font-size: 0.5vw;
 }
 
 
