@@ -68,15 +68,37 @@
 /*ABOUT SECTION heading*/
 #about-heading-one{
 	color: white;
-	font-size: 2.5vw;
+	font-size: 2vw;
 }
 
 
 /*ABOUT SECTION pharagrap*/
 #about-paragraph-one{
 	color: white;
-	font-size: 1.5vw;
+	font-size: 1vw;
 }
+
+
+
+/*cert - about SECTION pharagrap*/
+#cert-paragraph-one{
+	color: gray;
+	font-size: 1vw;
+}
+
+#cert-heading-one{
+	color: gray;
+	font-size: 2vw;
+}
+
+
+#card-text-cert
+{
+	color: gray;
+}
+
+
+
 
 /*ABOUT SECTION carousel images*/
 #carousel-images{
