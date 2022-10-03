@@ -32,6 +32,11 @@
 }
 
 
+/*#carou{
+	width: auto;
+	height: auto;
+}*/
+
 
 /*This is the H1 text in the BANNER section*/
 
@@ -59,43 +64,42 @@
 /*this is for LOGOs in ABOUT section to keep them small*/
 #about-section-logos{
 	height: auto;
-	width: 75px;
-	border-radius: 125px;
-
+	width: 45px;
+	border-radius: 75px;
 }
 
 
 /*ABOUT SECTION heading*/
-#about-heading-one{
+/*#about-heading-one{
 	color: white;
-	font-size: 1.5vw;
-}
+	font-size: 3.5vw;
+}*/
 
 
 /*ABOUT SECTION pharagrap*/
-#about-paragraph-one{
+/*#about-paragraph-one{
 	color: white;
-	font-size: 1vw;
-}
+	font-size: 3vw;
+}*/
 
 
 
 /*cert - about SECTION pharagrap*/
 #cert-paragraph-one{
 	color: gray;
-	font-size: 0.5vw;
+	/*font-size: 2.5vw;*/
 }
 
 #cert-heading-one{
 	color: gray;
-	font-size: 1.5vw;
+	/*font-size: 1.5vw;*/
 }
 
 
 #card-text-cert, .card-link
 {
 	color: gray;
-	font-size: 0.5vw;
+	font-size: 2vw;
 }
 
 
@@ -122,7 +126,7 @@
 .project-heading-two{
 	text-align: center;
 	font-size: 5vw;
-	color: black;
+	color: gray;
 }
 
 /*	TOOLS HEADING three*/
